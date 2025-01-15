@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pocketPurge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4371b8f50b188a3b39253ac5348afd3c174f8332")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c1863578a8aaf2ae99e02f5bcf13b422d4a799ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("pocketPurge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pocketPurge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

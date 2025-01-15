@@ -153,8 +153,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T06:04:57.711Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "pocketPurge\\Components\\Pages\\Transaction.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T12:56:24.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T12:56:24.034Z"
             },
             {
               "$type": "Document",
@@ -192,8 +190,7 @@
               "RelativeToolTip": "DataModel\\Model\\Expense.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T09:57:09.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T09:57:09.935Z"
             },
             {
               "$type": "Document",
@@ -205,8 +202,7 @@
               "RelativeToolTip": "DataModel\\DataModel.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-14T11:49:10.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T11:49:10.14Z"
             },
             {
               "$type": "Document",
@@ -424,7 +420,7 @@
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
               "RelativeToolTip": "pocketPurge\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAFB2wEUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIB5wEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T06:16:43.909Z",
               "EditorCaption": ""
