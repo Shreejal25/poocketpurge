@@ -1,0 +1,200 @@
+﻿@page "/transaction"
+
+@using DataModel.Model
+@inject IExpenseService ExpenseService
+@inject NavigationManager NavigationManager
+
+<button @onclick="NavigateDashboard" class="btn btn-primary">
+    Back Dashboard
+</button>
+
+<div class="filter-section">
+    <h3>Filter Transactions</h3>
+    <div class="row mb-3">
+        <div class="col-sm-4">
+            <input type="text" class="form-control" @oninput="SearchByTitle" placeholder="Search by title..." />
+        </div>
+        <div class="col-sm-2">
+            <select class="form-control" @onchange="FilterByType">
+                <option value="">All Types</option>
+                <option value="Debit">Debit</option>
+                <option value="Credit">Credit</option>
+            </select>
+        </div>
+
+        <div class="col-sm-3">
+            <input type="date" class="form-control" @onchange="FilterByStartDate" placeholder="Start Date" />
+            <input type="date" class="form-control mt-2" @onchange="FilterByEndDate" placeholder="End Date" />
+        </div>
+
+        <!-- Filter by Category -->
+        <div class="col-sm-3">
+            <select class="form-control" @onchange="FilterByCategory">
+                <option value="">All Categories</option>
+                @foreach (var category in Categories)
+                {
+                    <option value="@category">@category</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="All-transactions">
+    <h3>All Transactions</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th @onclick="ToggleTitleSort" style="cursor: pointer;">
+                    Title
+                    <span>@(TitleSortAscending ? "▲" : "▼")</span>
+                </th>
+                <th>Type</th>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expense in FilteredExpenses)
+            {
+                <tr>
+                    <td>@expense.title</td>
+                    <td>@expense.Type</td>
+                    <td>@expense.Date.ToShortDateString()</td>
+                    <td>@(string.IsNullOrEmpty(expense.CustomCategory) ? expense.Category : expense.CustomCategory)</td>
+                    <td>@expense.Amount</td>
+                    <td>@expense.Description</td>
+                    <td>
+                        <button @onclick="() => DeleteExpense(expense)" class="btn btn-danger">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Expense> Expenses { get; set; } = new();
+    private List<Expense> FilteredExpenses { get; set; } = new();
+    private decimal TotalExpense { get; set; }
+    private Dictionary<string, decimal> CategoryExpenses { get; set; } = new();
+    private List<string> Categories { get; set; } = new();  // Stores available categories
+    private string SearchText { get; set; }
+    private string SelectedType { get; set; } = string.Empty;
+    private string SelectedCategory { get; set; } = string.Empty;  // Holds the selected category
+
+    private DateTime? StartDate { get; set; }
+    private DateTime? EndDate { get; set; }
+    private bool TitleSortAscending = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDashboardData();
+        FilteredExpenses = Expenses;
+
+        // Populate categories
+        Categories = Expenses.Select(e => e.Category).Distinct().ToList();
+    }
+
+    private void NavigateDashboard()
+    {
+        NavigationManager.NavigateTo("/dashboard");
+    }
+
+    private async Task LoadDashboardData()
+    {
+        Expenses = await ExpenseService.GetAllTransaction();
+        TotalExpense = await ExpenseService.GetTotalTransaction();
+        CategoryExpenses = await ExpenseService.GetCategoryTransaction();
+        ApplyFilters();
+    }
+
+    private async Task DeleteExpense(Expense expense)
+    {
+        try
+        {
+            await ExpenseService.DeleteTransaction(expense);
+            await LoadDashboardData();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting expense: {ex.Message}");
+        }
+    }
+
+    private void SearchByTitle(ChangeEventArgs e)
+    {
+        SearchText = e.Value?.ToString();
+        ApplyFilters();
+    }
+
+    private void FilterByType(ChangeEventArgs e)
+    {
+        SelectedType = e.Value?.ToString();
+        ApplyFilters();
+    }
+
+    private void FilterByCategory(ChangeEventArgs e)
+    {
+        SelectedCategory = e.Value?.ToString();
+        ApplyFilters();
+    }
+
+    private void FilterByStartDate(ChangeEventArgs e)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out DateTime parsedDate))
+        {
+            StartDate = parsedDate;
+        }
+        else
+        {
+            StartDate = null;
+        }
+        ApplyFilters();
+    }
+
+    private void FilterByEndDate(ChangeEventArgs e)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out DateTime parsedDate))
+        {
+            EndDate = parsedDate;
+        }
+        else
+        {
+            EndDate = null;
+        }
+        ApplyFilters();
+    }
+
+    private void ApplyFilters()
+    {
+        var filtered = Expenses
+            .Where(e => (string.IsNullOrEmpty(SearchText) || e.title.Contains(SearchText, StringComparison.OrdinalIgnoreCase)) &&
+                        (string.IsNullOrEmpty(SelectedType) || e.Type == SelectedType) &&
+                        (string.IsNullOrEmpty(SelectedCategory) || e.Category == SelectedCategory) &&
+                        (!StartDate.HasValue || e.Date >= StartDate.Value) &&
+                        (!EndDate.HasValue || e.Date <= EndDate.Value));
+
+        if (TitleSortAscending)
+        {
+            filtered = filtered.OrderBy(e => e.title);
+        }
+        else
+        {
+            filtered = filtered.OrderByDescending(e => e.title);
+        }
+
+        FilteredExpenses = filtered.ToList();
+    }
+
+    private void ToggleTitleSort()
+    {
+        TitleSortAscending = !TitleSortAscending;
+        ApplyFilters();
+    }
+}

@@ -1,0 +1,562 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\datamodel\\model\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\model\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\debt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\debt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\dataacess\\services\\interfaces\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\datamodel\\model\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\model\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\dataacess\\services\\interfaces\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\datamodel\\datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\dataacess\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\dataacess\\services\\interfaces\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\datamodel\\abstraction\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\abstraction\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\dataacess\\services\\interfaces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\datamodel\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9EF9F4-6E0C-4022-8B59-41C4396B5969}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\components\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\pocketpurge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\pocketpurge.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\desktop\\pocketpurge\\pocketpurge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1049,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\User.cs",
+              "RelativeDocumentMoniker": "DataModel\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\User.cs",
+              "RelativeToolTip": "DataModel\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T06:04:57.711Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Debt.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Debt.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Debt.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Debt.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Debt.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBZwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T04:24:57.334Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAANoBAAAAAAAAAAAmwOoBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-15T16:05:32.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Transaction.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Transaction.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Transaction.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Transaction.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Transaction.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T12:56:24.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\Expense.cs",
+              "RelativeDocumentMoniker": "DataModel\\Model\\Expense.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\Expense.cs",
+              "RelativeToolTip": "DataModel\\Model\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:57:09.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataModel.csproj",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj",
+              "RelativeDocumentMoniker": "DataModel\\DataModel.csproj",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj",
+              "RelativeToolTip": "DataModel\\DataModel.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T11:49:10.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddTransaction.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\AddTransaction.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\AddTransaction.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\AddTransaction.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\AddTransaction.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T10:23:47.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "pocketPurge\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\MauiProgram.cs",
+              "RelativeToolTip": "pocketPurge\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:08:13.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T10:14:48.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Debt.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\Debt.cs",
+              "RelativeDocumentMoniker": "DataModel\\Model\\Debt.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Model\\Debt.cs",
+              "RelativeToolTip": "DataModel\\Model\\Debt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T04:30:09.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "pocketPurge\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\index.html",
+              "RelativeToolTip": "pocketPurge\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-02T04:45:01.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\ExpenseService.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\ExpenseService.cs",
+              "RelativeToolTip": "DataAcess\\Services\\Interfaces\\ExpenseService.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAUwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:06:10.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "DataAcess\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T05:31:59.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\IExpenseService.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\IExpenseService.cs",
+              "RelativeToolTip": "DataAcess\\Services\\Interfaces\\IExpenseService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:59:56.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\_Imports.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T06:42:34.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\UserService.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\UserService.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\UserService.cs",
+              "RelativeToolTip": "DataAcess\\Services\\Interfaces\\UserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T05:31:14.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserBase.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Abstraction\\UserBase.cs",
+              "RelativeDocumentMoniker": "DataModel\\Abstraction\\UserBase.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\Abstraction\\UserBase.cs",
+              "RelativeToolTip": "DataModel\\Abstraction\\UserBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T06:01:39.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T07:27:42.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\Utils.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\Utils.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\Services\\Interfaces\\Utils.cs",
+              "RelativeToolTip": "DataAcess\\Services\\Interfaces\\Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T12:42:51.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBpwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T06:16:43.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T10:37:42.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T06:14:53.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "pocketPurge\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Properties\\launchSettings.json",
+              "RelativeToolTip": "pocketPurge\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-31T07:18:29.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "pocketPurge\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "pocketPurge\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-02T05:27:47.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T06:37:58.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Routes.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T11:00:26.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Index.razor.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\Components\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Index.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T06:15:15.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "pocketPurge.csproj",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\pocketPurge.csproj",
+              "RelativeDocumentMoniker": "pocketPurge\\pocketPurge.csproj",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\pocketPurge.csproj",
+              "RelativeToolTip": "pocketPurge\\pocketPurge.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-01T09:24:25.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "pocketPurge\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T08:49:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\MainPage.xaml",
+              "RelativeDocumentMoniker": "pocketPurge\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\MainPage.xaml",
+              "RelativeToolTip": "pocketPurge\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T07:08:43.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\App.xaml",
+              "RelativeDocumentMoniker": "pocketPurge\\App.xaml",
+              "ToolTip": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\App.xaml",
+              "RelativeToolTip": "pocketPurge\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T07:08:49.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 431,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

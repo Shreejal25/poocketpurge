@@ -1,0 +1,320 @@
+﻿@page "/dashboard"
+@using DataModel.Model
+@inject IExpenseService ExpenseService
+@inject NavigationManager NavigationManager
+@inject IUserService UserService
+
+@using ApexCharts
+
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 bg-light p-3" style="height: 100vh; position: fixed; left: 0; top: 0;">
+            <h4 class="text-center mb-4">PocketPurge</h4>
+            <ul class="list-unstyled">
+                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-dark">Dashboard</button></li>
+                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-dark">All Transactions</button></li>
+                <li><button @onclick="NavigateToDebt" class="btn btn-link text-dark">Debt</button></li>
+                <li><button @onclick="Logout" class="btn btn-link text-dark">Logout</button></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-9 offset-md-3" style="margin-left: 25%; padding-top: 20px;">
+            <!-- Header Section -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1>Expense Dashboard</h1>
+                <div class="text-end">
+                    <h5 class="mb-0">Current Balance</h5>
+                    <p class="text-primary fw-bold fs-4">
+                        @(currentBalance.HasValue ? currentBalance.Value.ToString("C") : "N/A")
+                    </p>
+                </div>
+            </div>
+
+            <!-- Add Transaction Button -->
+            <div class="text-center my-3">
+                <button @onclick="NavigateToAddTransaction" class="btn btn-primary btn-sm">
+                    Add Transaction
+                </button>
+            </div>
+
+            <!-- Summary Cards -->
+            <Card Color="CardColor.Primary" Class="mb-4" Style="width:18rem;">
+    <CardHeader>Total Inflows</CardHeader>
+    <CardBody>
+        <CardTitle>Total Inflows</CardTitle>
+        <CardText class="text-success fw-bold">@TotalExpense.ToString("C")</CardText>
+    </CardBody>
+</Card>
+           
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title">Total Outflows</h4>
+                            <p class="card-text text-danger fw-bold">@TotalOutflow.ToString("C")</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">Total Transactions</h4>
+                        <p class="card-text fw-bold">@TotalTransactions</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Error Message -->
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class="alert alert-danger text-center">
+                    @errorMessage
+                </div>
+            }
+
+            <!-- Category-Wise Expenses -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5>Category-Wise Expenses</h5>
+                    <ul class="list-group">
+                        @foreach (var category in CategoryExpenses)
+                        {
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>@category.Key</span>
+                                <span>@category.Value.ToString("C")</span>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Transaction Filter Dropdown -->
+            <div class="mb-3">
+                <label for="transactionFilter" class="form-label">Filter Transactions</label>
+                <select id="transactionFilter" class="form-select" @onchange="OnFilterChanged">
+                    <option value="Highest">Top 5 Highest Transactions</option>
+                    <option value="Lowest">Top 5 Lowest Transactions</option>
+                    <option value="Recent">Recent Transactions</option>
+                </select>
+            </div>
+
+            <!-- Transactions Table (Highest/Lowest/Recent) -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5>@($"{TransactionFilter} Transactions")</h5>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Type</th>
+                                <th>Date</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var expense in FilteredTransactions)
+                            {
+                                <tr>
+                                    <td>@expense.title</td>
+                                    <td>@expense.Type</td>
+                                    <td>@expense.Date.ToShortDateString()</td>
+                                    <td>@(string.IsNullOrEmpty(expense.CustomCategory) ? expense.Category : expense.CustomCategory)</td>
+                                    <td>@expense.Amount.ToString("C")</td>
+                                    <td>@expense.Description</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Pending Debts -->
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Pending Debts</h4>
+                </div>
+                <div class="card-body">
+                    @if (debts == null)
+                    {
+                        <p><em>Loading debts...</em></p>
+                    }
+                    else if (debts.Count == 0)
+                    {
+                        <p>No pending debts.</p>
+                    }
+                    else
+                    {
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Source</th>
+                                    <th>Amount</th>
+                                    <th>Due Date</th>
+                                    <th>Description</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var debt in debts)
+                                {
+                                    <tr>
+                                        <td>@debt.Title</td>
+                                        <td>@debt.Source</td>
+                                        <td>@debt.Amount.ToString("C")</td>
+                                        <td>@debt.DueDate.ToShortDateString()</td>
+                                        <td>@debt.Description</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteDebt(debt.Id)">
+                                                <i class="bi bi-trash"></i> Clear
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+@code {
+    private List<Expense> Expenses { get; set; } = new();
+    private decimal TotalExpense { get; set; }
+    private decimal TotalOutflow { get; set; }
+    private decimal? currentBalance { get; set; }
+    private Dictionary<string, decimal> CategoryExpenses { get; set; } = new();
+    private string errorMessage { get; set; }
+    private List<DataModel.Model.Debt> debts = new List<DataModel.Model.Debt>();
+    private int TotalTransactions { get; set; }
+
+    private List<Expense> Top5HighestTransactions { get; set; } = new();
+    private List<Expense> Top5LowestTransactions { get; set; } = new();
+    private List<Expense> RecentTransactions { get; set; } = new();
+    private List<Expense> FilteredTransactions { get; set; } = new();
+    private string TransactionFilter { get; set; } = "Highest"; // Default filter to "Highest"
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDashboardData();
+    }
+
+    private async Task LoadDashboardData()
+    {
+        try
+        {
+            Expenses = await ExpenseService.GetAllTransaction();
+            TotalExpense = await ExpenseService.GetTotalTransaction();
+            TotalOutflow = await ExpenseService.GetTotalOutflows();
+            CategoryExpenses = await ExpenseService.GetCategoryTransaction();
+            currentBalance = await ExpenseService.GetCurrentBalance();
+            debts = await ExpenseService.GetAllDebts();
+
+            TotalTransactions = Expenses.Count;
+
+            // Sorting transactions by amount
+            var sortedExpenses = Expenses.OrderByDescending(e => e.Amount).ToList();
+            Top5HighestTransactions = sortedExpenses.Take(5).ToList();
+            Top5LowestTransactions = sortedExpenses.OrderBy(e => e.Amount).Take(5).ToList();
+
+            // Sorting by date for recent transactions
+            RecentTransactions = Expenses.OrderByDescending(e => e.Date).Take(5).ToList();
+
+            // Initialize with the default filter
+            ApplyTransactionFilter();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to load data: {ex.Message}";
+        }
+    }
+
+    private void ApplyTransactionFilter()
+    {
+        if (TransactionFilter == "Highest")
+        {
+            FilteredTransactions = Top5HighestTransactions;
+        }
+        else if (TransactionFilter == "Lowest")
+        {
+            FilteredTransactions = Top5LowestTransactions;
+        }
+        else if (TransactionFilter == "Recent")
+        {
+            FilteredTransactions = RecentTransactions;
+        }
+    }
+
+    private void OnFilterChanged(ChangeEventArgs e)
+    {
+        TransactionFilter = e.Value.ToString();
+        ApplyTransactionFilter();
+    }
+
+    private void NavigateToAddTransaction()
+    {
+        NavigationManager.NavigateTo("/add-transaction");
+    }
+
+    private void NavigateToTransaction()
+    {
+        NavigationManager.NavigateTo("/transaction");
+    }
+
+    private void NavigateToDashboard()
+    {
+        NavigationManager.NavigateTo("/dashboard");
+    }
+
+    private void NavigateToDebt()
+    {
+        NavigationManager.NavigateTo("/debts");
+    }
+
+    private void Logout()
+    {
+        UserService.Logout();
+        NavigationManager.NavigateTo("/login");
+    }
+
+    private async Task DeleteDebt(int id)
+    {
+        // Find the debt to delete based on the provided ID
+        var debtToDelete = debts.FirstOrDefault(d => d.Id == id);
+
+        if (debtToDelete != null)
+        {
+            // Check if the current balance is sufficient to clear the debt
+            if (currentBalance.HasValue && debtToDelete.Amount > currentBalance.Value)
+            {
+                // Display an error message if the balance is insufficient
+                errorMessage = "Insufficient balance to clear this debt.";
+            }
+            else
+            {
+                // If sufficient balance exists, proceed with debt clearance
+                await ExpenseService.DeleteDebt(debtToDelete); // Call the service to clear the debt
+                debts.Remove(debtToDelete); // Remove the debt from the list
+                currentBalance = await ExpenseService.GetCurrentBalance(); // Update the current balance
+                errorMessage = null; // Clear any previous error messages
+            }
+        }
+        else
+        {
+            // Display an error if the debt with the given ID doesn't exist
+            errorMessage = "Debt not found.";
+        }
+    }
+
+}

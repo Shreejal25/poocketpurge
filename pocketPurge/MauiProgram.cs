@@ -1,0 +1,39 @@
+﻿using ApexCharts;
+using DataAcess.Services;
+using DataAcess.Services.Interfaces;
+using Microsoft.Extensions.Logging;
+using MudBlazor.Services; // Add MudBlazor namespace
+
+namespace pocketPurge;
+
+public static class MauiProgram
+{
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp<App>()
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+            });
+
+        builder.Services.AddMauiBlazorWebView();
+
+        // Add MudBlazor services
+        builder.Services.AddMudServices();
+
+        // Register your custom services
+        builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddSingleton<IExpenseService, ExpenseService>();
+        builder.Services.AddApexCharts();
+
+
+#if DEBUG
+        builder.Services.AddBlazorWebViewDeveloperTools();
+        builder.Logging.AddDebug();
+#endif
+
+        return builder.Build();
+    }
+}

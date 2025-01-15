@@ -1,0 +1,114 @@
+﻿@page "/debts"
+@inject IExpenseService ExpenseService
+@inject NavigationManager NavigationManager
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <h3 class="text-primary">Debt Management</h3>
+            @if (currentBalance.HasValue)
+            {
+                <div class="alert alert-success text-center font-weight-bold" style="min-width: 200px;">
+                    Current Balance: @currentBalance.Value.ToString("C")
+                </div>
+            }
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="mb-4">
+        <button @onclick="NavigateDashboard" class="btn btn-outline-primary">
+            <i class="bi bi-arrow-left"></i> Back to Dashboard
+        </button>
+    </div>
+
+    
+
+    <div class="card mt-5 shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Add New Debt</h4>
+        </div>
+        <div class="card-body">
+            <EditForm Model="@newDebt" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="form-row"/>
+                    <div class="form-group col-md-6">
+                        <label for="Title">Title</label>
+                        <InputText id="Title" class="form-control" @bind-Value="newDebt.Title" placeholder="Enter title" required/>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="Title">Source</label>
+                            <InputText id="Title" class="form-control" @bind-Value="newDebt.Source" placeholder="Source of Debt" required />
+                        </div>
+              
+
+                    <div class="form-group col-md-6">
+                        <label for="Amount">Amount</label>
+                        <InputNumber id="Amount" class="form-control" @bind-Value="newDebt.Amount" placeholder="Enter amount" required />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="DueDate">Due Date</label>
+                        <InputDate id="DueDate" class="form-control" @bind-Value="newDebt.DueDate" />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="Description">Description</label>
+                        <InputText id="Description" class="form-control" @bind-Value="newDebt.Description" placeholder="Enter description" />
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Add Debt
+                </button>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<DataModel.Model.Debt> debts = new List<DataModel.Model.Debt>();
+    private DataModel.Model.Debt newDebt = new DataModel.Model.Debt();
+    private decimal? currentBalance { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        debts = await ExpenseService.GetAllDebts();
+        currentBalance = await ExpenseService.GetCurrentBalance();  // Fetch the current balance here
+    }
+
+    // private async Task DeleteDebt(int id)
+    // {
+    //     var debtToDelete = debts.FirstOrDefault(d => d.Id == id);
+    //     if (debtToDelete != null)
+    //     {
+    //         await ExpenseService.DeleteDebt(debtToDelete);
+    //         debts.Remove(debtToDelete);
+    //         await UpdateCurrentBalance();  Update the balance after deleting
+    //     }
+    // }
+
+    private async Task HandleValidSubmit()
+    {
+        await ExpenseService.AddDebt(newDebt);
+        debts.Add(newDebt);
+        newDebt = new DataModel.Model.Debt(); // Reset the form after submission
+        await UpdateCurrentBalance();  // Update balance after adding a new debt
+    }
+
+    private async Task UpdateCurrentBalance()
+    {
+        currentBalance = await ExpenseService.GetCurrentBalance();  // Re-fetch the updated current balance
+    }
+
+    private void NavigateDashboard()
+    {
+        NavigationManager.NavigateTo("/dashboard");
+    }
+}
