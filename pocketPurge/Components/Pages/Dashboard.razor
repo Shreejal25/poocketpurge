@@ -41,13 +41,15 @@
             </div>
 
             <!-- Summary Cards -->
-            <Card Color="CardColor.Primary" Class="mb-4" Style="width:18rem;">
-    <CardHeader>Total Inflows</CardHeader>
-    <CardBody>
-        <CardTitle>Total Inflows</CardTitle>
-        <CardText class="text-success fw-bold">@TotalExpense.ToString("C")</CardText>
-    </CardBody>
-</Card>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title">Total Inflows</h4>
+                            <p class="card-text text-success fw-bold">@TotalExpense.ToString("C")</p>
+                        </div>
+                    </div>
+                </div>
            
                 <div class="col-md-6">
                     <div class="card text-center">
@@ -186,6 +188,7 @@
             </div>
         </div>
     </div>
+</div>
 
 
 

@@ -24,3 +24,17 @@ C:\Users\shrij\Desktop\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.
 C:\Users\shrij\Desktop\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\ref\DataModel.dll
 C:\Users\shrij\Desktop\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.sourcelink.json
 C:\Users\shrij\Desktop\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\wwwroot\ChartJsBlazorInterop.js
+C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\wwwroot\ChartJsBlazorInterop.js
+C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.deps.json
+C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.dll
+C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.pdb
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.csproj.AssemblyReference.cache
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.AssemblyInfoInputs.cache
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.AssemblyInfo.cs
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.sourcelink.json
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.dll
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\refint\DataModel.dll
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\DataModel.pdb
+C:\Users\shrij\Documents\pocketPurge\DataModel\obj\Debug\net8.0-windows10.0.19041.0\ref\DataModel.dll
