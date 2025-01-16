@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\documents\\pocketpurge\\dataacess\\services\\interfaces\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|c:\\users\\shrij\\documents\\pocketpurge\\dataacess\\services\\interfaces\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67C55BB8-5255-42D9-A6EC-488D8AEDC1EF}|DataAcess\\DataAcess.csproj|solutionrelative:dataacess\\services\\interfaces\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -84,10 +88,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|solutionrelative:pocketpurge\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{301776F9-2AD5-4565-A493-91F9B5F25EBF}|pocketPurge\\pocketPurge.csproj|c:\\users\\shrij\\documents\\pocketpurge\\pocketpurge\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -140,11 +140,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1049,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\Model\\User.cs",
               "RelativeDocumentMoniker": "DataModel\\Model\\User.cs",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Debt.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Debt.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Debt.razor",
@@ -170,33 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Dashboard.razor",
-              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwJkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T10:14:48.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "pocketPurge\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\MauiProgram.cs",
-              "RelativeToolTip": "pocketPurge\\MauiProgram.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:08:13.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\App.xaml",
               "RelativeDocumentMoniker": "pocketPurge\\App.xaml",
@@ -204,12 +178,11 @@
               "RelativeToolTip": "pocketPurge\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T07:08:49.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T07:08:49.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\MainPage.xaml",
               "RelativeDocumentMoniker": "pocketPurge\\MainPage.xaml",
@@ -217,12 +190,11 @@
               "RelativeToolTip": "pocketPurge\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T07:08:43.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T07:08:43.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserBase.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\Abstraction\\UserBase.cs",
               "RelativeDocumentMoniker": "DataModel\\Abstraction\\UserBase.cs",
@@ -230,25 +202,24 @@
               "RelativeToolTip": "DataModel\\Abstraction\\UserBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T06:01:39.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T06:01:39.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Transaction.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Transaction.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Transaction.razor",
               "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Transaction.razor",
               "RelativeToolTip": "pocketPurge\\Components\\Pages\\Transaction.razor",
-              "ViewState": "AgIAACUAAAAAAAAAAAAswEIAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-01T12:56:24.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IExpenseService.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\Services\\Interfaces\\IExpenseService.cs",
               "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\IExpenseService.cs",
@@ -261,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ExpenseService.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\Services\\Interfaces\\ExpenseService.cs",
               "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\ExpenseService.cs",
@@ -274,7 +245,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T09:58:43.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T10:14:48.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "pocketPurge",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\pocketPurge.csproj",
               "RelativeDocumentMoniker": "pocketPurge\\pocketPurge.csproj",
@@ -286,7 +283,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "pocketPurge\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T07:27:42.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "pocketPurge\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\MauiProgram.cs",
+              "RelativeToolTip": "pocketPurge\\MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:08:13.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\_Imports.razor",
@@ -299,20 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "pocketPurge\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAACBjwAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T09:58:43.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\Services\\Interfaces\\UserService.cs",
               "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\UserService.cs",
@@ -325,20 +335,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AddTransaction.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\AddTransaction.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\AddTransaction.razor",
               "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\AddTransaction.razor",
               "RelativeToolTip": "pocketPurge\\Components\\Pages\\AddTransaction.razor",
-              "ViewState": "AgIAADMAAAAAAAAAACBjwBkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAIBpwBkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T10:23:47.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "DataAcess\\Services\\Interfaces\\IUserService.cs",
@@ -351,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "pocketPurge\\wwwroot\\css\\app.css",
@@ -364,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Pages\\Index.razor",
@@ -390,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -403,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Xamarin.Android.Aapt2.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Aapt2.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Aapt2.targets",
@@ -430,19 +440,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "pocketPurge\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "pocketPurge\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T07:27:42.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "pocketPurge\\Components\\Layout\\NavMenu.razor",

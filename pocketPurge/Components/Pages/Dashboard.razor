@@ -9,13 +9,14 @@
 <div class="container-fluid">
     <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-3 bg-light p-4 vh-100" style="position: fixed; top: 0; left: 0; overflow-y: auto;">
-            <h4 class="text-center mb-4">PocketPurge</h4>
+        <div class="col-md-3 p-4 vh-100" style="background-color:#051726;position: fixed; top: 0; left: 0; overflow-y: auto;">
+            <img src="logopocketpurge.png" alt="PocketPurge Logo" class="img-fluid mb-2" style="max-width: 150px;" />
+           
             <ul class="list-unstyled">
-                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-dark w-100 text-start">Dashboard</button></li>
-                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-dark w-100 text-start">All Transactions</button></li>
-                <li><button @onclick="NavigateToDebt" class="btn btn-link text-dark w-100 text-start">Debt</button></li>
-                <li><button @onclick="Logout" class="btn btn-link text-dark w-100 text-start">Logout</button></li>
+                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-white w-100 text-start">Dashboard</button></li>
+                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-white w-100 text-start">All Transactions</button></li>
+                <li><button @onclick="NavigateToDebt" class="btn btn-link text-whitek w-100 text-start">Debt</button></li>
+                <li><button @onclick="Logout" class="btn btn-link text-white w-100 text-start">Logout</button></li>
             </ul>
         </div>
 
