@@ -3,71 +3,116 @@
 @inject IExpenseService ExpenseService
 @inject NavigationManager NavigationManager
 @inject IUserService UserService
+@using MudBlazor
 
-@using ApexCharts
+
+
+
 
 
 <div class="container-fluid">
     <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-3 bg-light p-3" style="height: 100vh; position: fixed; left: 0; top: 0;">
-            <h4 class="text-center mb-4">PocketPurge</h4>
+        <div class="col-md-3 bg-primary p-3" style="height: 100vh; position: fixed; left: 0; top: 0;">
+            <h4 class="text-center mb-4 text-white">PocketPurge</h4>
             <ul class="list-unstyled">
-                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-dark">Dashboard</button></li>
-                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-dark">All Transactions</button></li>
-                <li><button @onclick="NavigateToDebt" class="btn btn-link text-dark">Debt</button></li>
-                <li><button @onclick="Logout" class="btn btn-link text-dark">Logout</button></li>
+                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-white">Dashboard</button></li>
+                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-white">All Transactions</button></li>
+                <li><button @onclick="NavigateToDebt" class="btn btn-link text-white">Debt</button></li>
+                <li><button @onclick="Logout" class="btn btn-link text-white">Logout</button></li>
             </ul>
+        </div>
+        <MudPaper Class="pa-4 mb-4">
+            <MudChart ChartType="ChartType.Pie"
+                      Width="200px"
+                      Height="200px"
+                      InputData="@CategoryExpenses.Values.Select(v => (double)v).ToArray()"
+                      InputLabels="@CategoryExpenses.Keys.ToArray()"
+                      DonutInnerRadius="40%"
+                      DonutText="Expenses"
+                      Class="mx-auto" />
+        </MudPaper>
+        <!-- Category-Wise Expenses -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5>Category-Wise Expenses</h5>
+                @if (CategoryExpenses.Count == 0)
+                {
+                    <MudText Typo="Typo.body1" Color="Color.Primary">No category-wise expenses available.</MudText>
+                }
+                else
+                {
+                    <MudTable Items="CategoryExpenses" Bordered Striped Hover>
+                        <HeaderContent>
+                            <MudTh>Category</MudTh>
+                            <MudTh>Amount</MudTh>
+                        </HeaderContent>
+
+                        <RowTemplate>
+                            <MudTd DataLabel="Category">@context.Key</MudTd>
+                            <MudTd DataLabel="Amount">@context.Value.ToString("C")</MudTd>
+                        </RowTemplate>
+                    </MudTable>
+                }
+            </div>
         </div>
 
         <!-- Main Content -->
         <div class="col-md-9 offset-md-3" style="margin-left: 25%; padding-top: 20px;">
             <!-- Header Section -->
-            <div class="d-flex justify-content-between align-items-center mb-4">
-                <h1>Expense Dashboard</h1>
-                <div class="text-end">
-                    <h5 class="mb-0">Current Balance</h5>
-                    <p class="text-primary fw-bold fs-4">
-                        @(currentBalance.HasValue ? currentBalance.Value.ToString("C") : "N/A")
-                    </p>
-                </div>
-            </div>
+            <MudCard Class="mb-4">
+                <MudCardContent Class="d-flex justify-content-between align-items-center">
+                    <MudText Typo="Typo.h5">Expense Dashboard</MudText>
+                    <div class="text-end">
+                        <MudText Typo="Typo.h6" Class="mb-0">Current Balance</MudText>
+                        <MudText Typo="Typo.h5" Color="Color.Primary" Class="fw-bold">
+                            @(currentBalance.HasValue ? currentBalance.Value.ToString("C") : "N/A")
+                        </MudText>
+                    </div>
+                </MudCardContent>
+            </MudCard>
 
             <!-- Add Transaction Button -->
             <div class="text-center my-3">
-                <button @onclick="NavigateToAddTransaction" class="btn btn-primary btn-sm">
+                <MudButton Color="Color.Primary" Variant="Variant.Filled" Size="Size.Small" @onclick="NavigateToAddTransaction">
                     Add Transaction
-                </button>
+                </MudButton>
             </div>
+        </div>
+
 
             <!-- Summary Cards -->
-            <div class="row mb-4">
-                <div class="col-md-6">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h4 class="card-title">Total Inflows</h4>
-                            <p class="card-text text-success fw-bold">@TotalExpense.ToString("C")</p>
-                        </div>
-                    </div>
-                </div>
-           
-                <div class="col-md-6">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h4 class="card-title">Total Outflows</h4>
-                            <p class="card-text text-danger fw-bold">@TotalOutflow.ToString("C")</p>
-                        </div>
-                    </div>
-                </div>
+           <div class="row mb-4">
+            <div class="col-md-6">
+                <MudCard Class="mx-auto text-center pa-4" Style="background-color: #f0f8ff; border-radius: 10px;">
+                    <MudCardContent>
+                        <h4 class="mud-title">Total Inflows</h4>
+                        <p class="mud-typography text-success fw-bold">@TotalExpense.ToString("C")</p>
+                    </MudCardContent>
+                </MudCard>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h4 class="card-title">Total Transactions</h4>
-                        <p class="card-text fw-bold">@TotalTransactions</p>
-                    </div>
-                </div>
+
+            <div class="col-md-6">
+                <MudCard Class="mx-auto text-center pa-4" Style="background-color: #fff0f0; border-radius: 10px;">
+                    <MudCardContent>
+                        <h4 class="mud-title">Total Outflows</h4>
+                        <p class="mud-typography text-danger fw-bold">@TotalOutflow.ToString("C")</p>
+                    </MudCardContent>
+                </MudCard>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <MudCard Class="text-center pa-4" Style="background-color: #f5f5f5; border-radius: 10px;">
+                    <MudCardContent>
+                        <h4 class="mud-title">Total Transactions</h4>
+                        <p class="mud-typography fw-bold">@TotalTransactions</p>
+                    </MudCardContent>
+                </MudCard>
+            </div>
+        </div>
+
 
 
 
@@ -80,21 +125,8 @@
                 </div>
             }
 
-            <!-- Category-Wise Expenses -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5>Category-Wise Expenses</h5>
-                    <ul class="list-group">
-                        @foreach (var category in CategoryExpenses)
-                        {
-                            <li class="list-group-item d-flex justify-content-between">
-                                <span>@category.Key</span>
-                                <span>@category.Value.ToString("C")</span>
-                            </li>
-                        }
-                    </ul>
-                </div>
-            </div>
+       
+
 
             <!-- Transaction Filter Dropdown -->
             <div class="mb-3">
@@ -106,89 +138,80 @@
                 </select>
             </div>
 
-            <!-- Transactions Table (Highest/Lowest/Recent) -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5>@($"{TransactionFilter} Transactions")</h5>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>Title</th>
-                                <th>Type</th>
-                                <th>Date</th>
-                                <th>Category</th>
-                                <th>Amount</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var expense in FilteredTransactions)
-                            {
-                                <tr>
-                                    <td>@expense.title</td>
-                                    <td>@expense.Type</td>
-                                    <td>@expense.Date.ToShortDateString()</td>
-                                    <td>@(string.IsNullOrEmpty(expense.CustomCategory) ? expense.Category : expense.CustomCategory)</td>
-                                    <td>@expense.Amount.ToString("C")</td>
-                                    <td>@expense.Description</td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+            <MudPaper Class="pa-4 mb-4">
+                <MudText Typo="Typo.h5" Class="mb-3">@($"{TransactionFilter} Transactions")</MudText>
+
+                <MudTable Items="FilteredTransactions" Bordered Striped Hover>
+                    <HeaderContent>
+                        <MudTh>Title</MudTh>
+                        <MudTh>Type</MudTh>
+                        <MudTh>Date</MudTh>
+                        <MudTh>Category</MudTh>
+                        <MudTh>Amount</MudTh>
+                        <MudTh>Description</MudTh>
+                    </HeaderContent>
+
+                    <RowTemplate>
+                        <MudTd DataLabel="Title">@context.title</MudTd>
+                        <MudTd DataLabel="Type">@context.Type</MudTd>
+                        <MudTd DataLabel="Date">@context.Date.ToShortDateString()</MudTd>
+                        <MudTd DataLabel="Category">@((string.IsNullOrEmpty(context.CustomCategory) ? context.Category : context.CustomCategory))</MudTd>
+                        <MudTd DataLabel="Amount">@context.Amount.ToString("C")</MudTd>
+                        <MudTd DataLabel="Description">@context.Description</MudTd>
+                    </RowTemplate>
+                </MudTable>
+            </MudPaper>
+
 
             <!-- Pending Debts -->
-            <div class="card">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Pending Debts</h4>
-                </div>
-                <div class="card-body">
-                    @if (debts == null)
-                    {
-                        <p><em>Loading debts...</em></p>
-                    }
-                    else if (debts.Count == 0)
-                    {
-                        <p>No pending debts.</p>
-                    }
-                    else
-                    {
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Title</th>
-                                    <th>Source</th>
-                                    <th>Amount</th>
-                                    <th>Due Date</th>
-                                    <th>Description</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var debt in debts)
-                                {
-                                    <tr>
-                                        <td>@debt.Title</td>
-                                        <td>@debt.Source</td>
-                                        <td>@debt.Amount.ToString("C")</td>
-                                        <td>@debt.DueDate.ToShortDateString()</td>
-                                        <td>@debt.Description</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteDebt(debt.Id)">
-                                                <i class="bi bi-trash"></i> Clear
-                                            </button>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                    }
-                </div>
-            </div>
+            <MudPaper Class="pa-4 mb-4">
+                <MudCard>
+                    <MudCardHeader Class="bg-primary text-white">
+                        <MudText Typo="Typo.h6" Class="mb-0">Pending Debts</MudText>
+                    </MudCardHeader>
+
+                    <MudCardContent>
+                        @if (debts == null)
+                        {
+                            <MudText Typo="Typo.body1" Color="Color.Primary"><em>Loading debts...</em></MudText>
+                        }
+                        else if (debts.Count == 0)
+                        {
+                            <MudText Typo="Typo.body1" Color="Color.Primary">No pending debts.</MudText>
+                        }
+                        else
+                        {
+                            <MudTable Items="debts" Bordered Striped Hover>
+                                <HeaderContent>
+                                    <MudTh>Title</MudTh>
+                                    <MudTh>Source</MudTh>
+                                    <MudTh>Amount</MudTh>
+                                    <MudTh>Due Date</MudTh>
+                                    <MudTh>Description</MudTh>
+                                    <MudTh>Actions</MudTh>
+                                </HeaderContent>
+
+                                <RowTemplate>
+                                    <MudTd DataLabel="Title">@context.Title</MudTd>
+                                    <MudTd DataLabel="Source">@context.Source</MudTd>
+                                    <MudTd DataLabel="Amount">@context.Amount.ToString("C")</MudTd>
+                                    <MudTd DataLabel="Due Date">@context.DueDate.ToShortDateString()</MudTd>
+                                    <MudTd DataLabel="Description">@context.Description</MudTd>
+                                    <MudTd DataLabel="Actions">
+                                        <MudButton Color="Color.Error" Size="Size.Small" OnClick="() => DeleteDebt(context.Id)">
+                                            <MudIcon Icon="@Icons.Material.Filled.Delete" />
+                                            Clear
+                                        </MudButton>
+                                    </MudTd>
+                                </RowTemplate>
+                            </MudTable>
+                        }
+                    </MudCardContent>
+                </MudCard>
+            </MudPaper>
+
         </div>
     </div>
-</div>
 
 
 
@@ -319,5 +342,6 @@
             errorMessage = "Debt not found.";
         }
     }
+  
 
 }

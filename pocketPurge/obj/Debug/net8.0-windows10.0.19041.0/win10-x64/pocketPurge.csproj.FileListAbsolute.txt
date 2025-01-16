@@ -429,11 +429,6 @@ C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.1904
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.sourcelink.json
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Blazor-ApexCharts.dll
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.dll
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\wwwroot\ChartJsBlazorInterop.js
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChartJs.Blazor.dll
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll

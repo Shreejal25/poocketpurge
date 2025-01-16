@@ -1,4 +1,4 @@
-﻿using ApexCharts;
+﻿
 using DataAcess.Services;
 using DataAcess.Services.Interfaces;
 using Microsoft.Extensions.Logging;
@@ -26,7 +26,7 @@ public static class MauiProgram
         // Register your custom services
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddSingleton<IExpenseService, ExpenseService>();
-        builder.Services.AddApexCharts();
+        
 
 
 #if DEBUG
