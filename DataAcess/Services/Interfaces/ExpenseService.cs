@@ -44,7 +44,7 @@ namespace DataAcess.Services
         {
             var expenses = await GetAllTransaction();
             return expenses
-                .GroupBy(expense => string.IsNullOrEmpty(expense.CustomCategory) ? expense.Category : expense.CustomCategory)
+                .GroupBy(expense => expense.Category ?? "Uncategorized")
                 .ToDictionary(group => group.Key, group => group.Sum(expense => expense.Amount));
         }
 

@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.pocketpurge</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>3A923CB1967CB8C2E4CA3D653C10B58837F74CD81F176A7248C5605B6A3C57D4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.pocketpurge_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.pocketpurge_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,296 +26,300 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-16T06:38:51.053</Modified>
+      <Modified>2025-01-16T13:46:18.446</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-16T06:06:16.840</Modified>
+      <Modified>2025-01-16T10:48:00.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.runtimeconfig.json">
       <PackagePath>pocketPurge.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-16T06:06:16.692</Modified>
+      <Modified>2025-01-16T12:45:56.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.dll">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.dll">
       <PackagePath>pocketPurge.dll</PackagePath>
-      <Modified>2025-01-16T06:38:50.364</Modified>
+      <Modified>2025-01-16T13:46:17.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\DataAcess\bin\Debug\net8.0-windows10.0.19041.0\DataAcess.dll">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\DataAcess\bin\Debug\net8.0-windows10.0.19041.0\DataAcess.dll">
       <PackagePath>DataAcess.dll</PackagePath>
-      <Modified>2025-01-16T06:16:52.870</Modified>
+      <Modified>2025-01-16T12:46:56.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.dll">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.dll">
       <PackagePath>DataModel.dll</PackagePath>
-      <Modified>2025-01-16T06:05:39.682</Modified>
+      <Modified>2025-01-16T12:45:16.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>pocketPurge.exe</PackagePath>
-      <Modified>2025-01-16T06:38:50.409</Modified>
+      <Modified>2025-01-16T13:46:17.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-12-31T05:21:16.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\wwwroot\css\app.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2024-12-31T05:21:17.186</Modified>
+      <Modified>2025-01-16T08:59:28.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2024-12-31T05:21:17.188</Modified>
+      <Modified>2025-01-16T08:59:28.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2024-12-31T05:21:17.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\wwwroot\favicon.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
       <Modified>2024-12-31T05:21:16.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
       <Modified>2025-01-15T05:04:45.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\wwwroot\logopocketpurge.png">
+      <PackagePath>wwwroot\logopocketpurge.png</PackagePath>
+      <Modified>2024-12-31T08:35:59.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-15T16:51:23.000</Modified>
+      <Modified>2025-01-16T10:47:56.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-15T16:51:23.020</Modified>
+      <Modified>2025-01-16T10:47:56.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-15T16:51:23.049</Modified>
+      <Modified>2025-01-16T10:47:56.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-15T16:51:23.091</Modified>
+      <Modified>2025-01-16T10:47:56.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-15T16:51:23.249</Modified>
+      <Modified>2025-01-16T10:47:56.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-12-31T05:21:16.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-15T17:09:48.975</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.964</Modified>
+      <Modified>2025-01-16T10:47:58.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.964</Modified>
+      <Modified>2025-01-16T10:47:58.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.964</Modified>
+      <Modified>2025-01-16T10:47:58.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.963</Modified>
+      <Modified>2025-01-16T10:47:58.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.963</Modified>
+      <Modified>2025-01-16T10:47:58.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.971</Modified>
+      <Modified>2025-01-16T10:47:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.971</Modified>
+      <Modified>2025-01-16T10:47:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.970</Modified>
+      <Modified>2025-01-16T10:47:58.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.971</Modified>
+      <Modified>2025-01-16T10:47:58.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.970</Modified>
+      <Modified>2025-01-16T10:47:58.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.972</Modified>
+      <Modified>2025-01-16T10:47:58.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.972</Modified>
+      <Modified>2025-01-16T10:47:58.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.971</Modified>
+      <Modified>2025-01-16T10:47:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.972</Modified>
+      <Modified>2025-01-16T10:47:58.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.971</Modified>
+      <Modified>2025-01-16T10:47:58.020</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.975</Modified>
+      <Modified>2025-01-16T10:47:58.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.975</Modified>
+      <Modified>2025-01-16T10:47:58.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.972</Modified>
+      <Modified>2025-01-16T10:47:58.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.974</Modified>
+      <Modified>2025-01-16T10:47:58.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.967</Modified>
+      <Modified>2025-01-16T10:47:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.967</Modified>
+      <Modified>2025-01-16T10:47:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.967</Modified>
+      <Modified>2025-01-16T10:47:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.966</Modified>
+      <Modified>2025-01-16T10:47:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.966</Modified>
+      <Modified>2025-01-16T10:47:58.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.969</Modified>
+      <Modified>2025-01-16T10:47:58.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.969</Modified>
+      <Modified>2025-01-16T10:47:58.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.969</Modified>
+      <Modified>2025-01-16T10:47:58.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.967</Modified>
+      <Modified>2025-01-16T10:47:58.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.967</Modified>
+      <Modified>2025-01-16T10:47:58.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.970</Modified>
+      <Modified>2025-01-16T10:47:58.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.970</Modified>
+      <Modified>2025-01-16T10:47:58.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.970</Modified>
+      <Modified>2025-01-16T10:47:58.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.969</Modified>
+      <Modified>2025-01-16T10:47:58.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.969</Modified>
+      <Modified>2025-01-16T10:47:58.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.966</Modified>
+      <Modified>2025-01-16T10:47:58.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.966</Modified>
+      <Modified>2025-01-16T10:47:58.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.965</Modified>
+      <Modified>2025-01-16T10:47:58.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.965</Modified>
+      <Modified>2025-01-16T10:47:58.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.965</Modified>
+      <Modified>2025-01-16T10:47:58.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.963</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.963</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.962</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.962</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.962</Modified>
+      <Modified>2025-01-16T10:47:58.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopocketpurge.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopocketpurge.scale-100.png">
       <PackagePath>logopocketpurge.scale-100.png</PackagePath>
-      <Modified>2025-01-15T17:09:48.962</Modified>
+      <Modified>2025-01-16T10:47:58.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.deps.json">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.deps.json">
       <PackagePath>pocketPurge.deps.json</PackagePath>
-      <Modified>2025-01-16T06:06:16.597</Modified>
+      <Modified>2025-01-16T12:45:56.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -717,19 +721,19 @@
       <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.js</PackagePath>
       <Modified>2024-10-29T20:30:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\pocketPurge.styles.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\pocketPurge.styles.css">
       <PackagePath>wwwroot\pocketPurge.styles.css</PackagePath>
-      <Modified>2025-01-15T16:51:13.991</Modified>
+      <Modified>2025-01-16T10:47:45.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\pocketPurge.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\pocketPurge.bundle.scp.css">
       <PackagePath>wwwroot\pocketPurge.bundle.scp.css</PackagePath>
-      <Modified>2025-01-15T16:51:13.992</Modified>
+      <Modified>2025-01-16T10:47:45.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\Components\Layout\MainLayout.razor.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
       <Modified>2024-12-31T05:21:17.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\shrij\Desktop\pocketPurge\pocketPurge\Components\Layout\NavMenu.razor.css">
+    <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
       <Modified>2024-12-31T05:21:17.198</Modified>
     </AppxPackagedFile>

@@ -71,4 +71,16 @@
       <ProjectReference Include="..\DataModel\DataModel.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <MauiImage Include="wwwroot\logopocketpurge.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\logopocketpurge.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images\" />
+    </ItemGroup>
+
 </Project>

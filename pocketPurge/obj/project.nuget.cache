@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0109oxnX9h4=",
+  "dgSpecHash": "31tMDS/voZ0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\pocketPurge.csproj",
+  "projectFilePath": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\pocketPurge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shrij\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\chartjs.blazor.fork.2.0.2.nupkg.sha512",
     "C:\\Users\\shrij\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

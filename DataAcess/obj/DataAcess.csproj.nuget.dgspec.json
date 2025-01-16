@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\DataAcess.csproj": {}
+    "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\DataAcess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\DataAcess.csproj": {
+    "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\DataAcess.csproj",
+        "projectUniqueName": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\DataAcess.csproj",
         "projectName": "DataAcess",
-        "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\DataAcess.csproj",
+        "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\DataAcess.csproj",
         "packagesPath": "C:\\Users\\shrij\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataAcess\\obj\\",
+        "outputPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -37,32 +37,32 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj"
+              "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj"
               }
             }
           },
           "net8.0-ios17.5": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj"
+              "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj"
               }
             }
           },
           "net8.0-maccatalyst17.5": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj"
+              "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj"
+              "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -248,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\DataModel.csproj",
+        "projectPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\DataModel.csproj",
         "packagesPath": "C:\\Users\\shrij\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shrij\\Desktop\\pocketPurge\\DataModel\\obj\\",
+        "outputPath": "C:\\Users\\shrij\\Documents\\pocketPurge\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

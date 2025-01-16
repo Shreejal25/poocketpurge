@@ -1,4 +1,4 @@
-C:\Users\shrij\Desktop\pocketPurge\DataAcess\DataAcess.csproj;neutral
-C:\Users\shrij\Desktop\pocketPurge\DataModel\DataModel.csproj;neutral
-C:\Users\shrij\Desktop\pocketPurge\DataModel\DataModel.csproj;neutral
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\pocketPurge.csproj;x64
+C:\Users\shrij\Documents\pocketPurge\DataAcess\DataAcess.csproj;neutral
+C:\Users\shrij\Documents\pocketPurge\DataModel\DataModel.csproj;neutral
+C:\Users\shrij\Documents\pocketPurge\DataModel\DataModel.csproj;neutral
+C:\Users\shrij\Documents\pocketPurge\pocketPurge\pocketPurge.csproj;x64

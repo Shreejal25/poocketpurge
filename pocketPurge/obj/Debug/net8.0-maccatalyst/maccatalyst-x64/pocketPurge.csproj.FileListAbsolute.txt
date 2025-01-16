@@ -312,9 +312,7 @@ C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\macc
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
@@ -680,3 +678,8 @@ C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\ma
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\pocketPurge.pdb
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\pocketPurge.genruntimeconfig.cache
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\pocketPurge.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ChartJs.Blazor.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\pocketPurge.sourcelink.json
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf

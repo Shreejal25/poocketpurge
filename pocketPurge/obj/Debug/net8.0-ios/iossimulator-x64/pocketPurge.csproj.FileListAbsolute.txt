@@ -298,11 +298,6 @@ C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logopocketpurge.png
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
@@ -322,9 +317,7 @@ C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.outputs
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
-C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\actool\_BundleResourceWithLogicalName.items
 C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\actool\_ProcessedImageAssetsPath.items
@@ -700,3 +693,14 @@ C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulat
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\pocketPurge.pdb
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\pocketPurge.genruntimeconfig.cache
 C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\ref\pocketPurge.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-ios\iossimulator-x64\ChartJs.Blazor.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\bin\Debug\net8.0-ios\iossimulator-x64\Newtonsoft.Json.dll
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\pocketPurge.sourcelink.json
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\shrij\Desktop\pocketPurge\pocketPurge\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf

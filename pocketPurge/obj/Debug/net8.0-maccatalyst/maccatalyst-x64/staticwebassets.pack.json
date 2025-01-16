@@ -5,28 +5,32 @@
       "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\pocketPurge.styles.css",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\pocketPurge.styles.css",
       "PackagePath": "staticwebassets\\pocketPurge.styles.css"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\shrij\\Documents\\pocketPurge\\pocketPurge\\wwwroot\\index.html",
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\shrij\\Desktop\\pocketPurge\\pocketPurge\\wwwroot\\logopocketpurge.png",
+      "PackagePath": "staticwebassets\\logopocketpurge.png"
     },
     {
       "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.pocketPurge.props",

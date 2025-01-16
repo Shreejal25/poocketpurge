@@ -6,59 +6,21 @@
 @using MudBlazor
 
 
-
-
-
-
 <div class="container-fluid">
     <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-3 bg-primary p-3" style="height: 100vh; position: fixed; left: 0; top: 0;">
-            <h4 class="text-center mb-4 text-white">PocketPurge</h4>
+        <div class="col-md-3 bg-light p-4 vh-100" style="position: fixed; top: 0; left: 0; overflow-y: auto;">
+            <h4 class="text-center mb-4">PocketPurge</h4>
             <ul class="list-unstyled">
-                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-white">Dashboard</button></li>
-                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-white">All Transactions</button></li>
-                <li><button @onclick="NavigateToDebt" class="btn btn-link text-white">Debt</button></li>
-                <li><button @onclick="Logout" class="btn btn-link text-white">Logout</button></li>
+                <li><button @onclick="NavigateToDashboard" class="btn btn-link text-dark w-100 text-start">Dashboard</button></li>
+                <li><button @onclick="NavigateToTransaction" class="btn btn-link text-dark w-100 text-start">All Transactions</button></li>
+                <li><button @onclick="NavigateToDebt" class="btn btn-link text-dark w-100 text-start">Debt</button></li>
+                <li><button @onclick="Logout" class="btn btn-link text-dark w-100 text-start">Logout</button></li>
             </ul>
-        </div>
-        <MudPaper Class="pa-4 mb-4">
-            <MudChart ChartType="ChartType.Pie"
-                      Width="200px"
-                      Height="200px"
-                      InputData="@CategoryExpenses.Values.Select(v => (double)v).ToArray()"
-                      InputLabels="@CategoryExpenses.Keys.ToArray()"
-                      DonutInnerRadius="40%"
-                      DonutText="Expenses"
-                      Class="mx-auto" />
-        </MudPaper>
-        <!-- Category-Wise Expenses -->
-        <div class="card mb-4">
-            <div class="card-body">
-                <h5>Category-Wise Expenses</h5>
-                @if (CategoryExpenses.Count == 0)
-                {
-                    <MudText Typo="Typo.body1" Color="Color.Primary">No category-wise expenses available.</MudText>
-                }
-                else
-                {
-                    <MudTable Items="CategoryExpenses" Bordered Striped Hover>
-                        <HeaderContent>
-                            <MudTh>Category</MudTh>
-                            <MudTh>Amount</MudTh>
-                        </HeaderContent>
-
-                        <RowTemplate>
-                            <MudTd DataLabel="Category">@context.Key</MudTd>
-                            <MudTd DataLabel="Amount">@context.Value.ToString("C")</MudTd>
-                        </RowTemplate>
-                    </MudTable>
-                }
-            </div>
         </div>
 
         <!-- Main Content -->
-        <div class="col-md-9 offset-md-3" style="margin-left: 25%; padding-top: 20px;">
+        <div class="col-md-9 offset-md-3" style="padding-top: 20px;">
             <!-- Header Section -->
             <MudCard Class="mb-4">
                 <MudCardContent Class="d-flex justify-content-between align-items-center">
@@ -78,58 +40,52 @@
                     Add Transaction
                 </MudButton>
             </div>
-        </div>
-
 
             <!-- Summary Cards -->
-           <div class="row mb-4">
-            <div class="col-md-6">
-                <MudCard Class="mx-auto text-center pa-4" Style="background-color: #f0f8ff; border-radius: 10px;">
-                    <MudCardContent>
-                        <h4 class="mud-title">Total Inflows</h4>
-                        <p class="mud-typography text-success fw-bold">@TotalExpense.ToString("C")</p>
-                    </MudCardContent>
-                </MudCard>
-            </div>
-
-            <div class="col-md-6">
-                <MudCard Class="mx-auto text-center pa-4" Style="background-color: #fff0f0; border-radius: 10px;">
-                    <MudCardContent>
-                        <h4 class="mud-title">Total Outflows</h4>
-                        <p class="mud-typography text-danger fw-bold">@TotalOutflow.ToString("C")</p>
-                    </MudCardContent>
-                </MudCard>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 mx-auto">
-                <MudCard Class="text-center pa-4" Style="background-color: #f5f5f5; border-radius: 10px;">
-                    <MudCardContent>
-                        <h4 class="mud-title">Total Transactions</h4>
-                        <p class="mud-typography fw-bold">@TotalTransactions</p>
-                    </MudCardContent>
-                </MudCard>
-            </div>
-        </div>
-
-
-
-
-
-            <!-- Error Message -->
-            @if (!string.IsNullOrEmpty(errorMessage))
-            {
-                <div class="alert alert-danger text-center">
-                    @errorMessage
+            <div class="row mb-4 text-center">
+                <div class="col-md-6">
+                    <MudCard Class="pa-4" Style="background-color: #f0f8ff; border-radius: 10px;">
+                        <MudCardContent>
+                            <h4 class="mud-title">Total Inflows</h4>
+                            <p class="mud-typography text-success fw-bold">@TotalExpense.ToString("C")</p>
+                        </MudCardContent>
+                    </MudCard>
                 </div>
-            }
+                <div class="col-md-6">
+                    <MudCard Class="pa-4" Style="background-color: #fff0f0; border-radius: 10px;">
+                        <MudCardContent>
+                            <h4 class="mud-title">Total Outflows</h4>
+                            <p class="mud-typography text-danger fw-bold">@TotalOutflow.ToString("C")</p>
+                        </MudCardContent>
+                    </MudCard>
+                </div>
+            </div>
 
-       
+            <!-- Total Transactions -->
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <MudCard Class="pa-4" Style="background-color: #f5f5f5; border-radius: 10px;">
+                        <MudCardContent>
+                            <h4 class="mud-title">Total Transactions</h4>
+                            <p class="mud-typography fw-bold">@TotalTransactions</p>
+                        </MudCardContent>
+                    </MudCard>
+                </div>
+            </div>
 
+            <!-- Category-Wise Chart -->
+            <MudPaper Class="pa-4 mb-4 text-center">
+                <MudChart ChartType="ChartType.Pie"
+                          Width="200px"
+                          Height="200px"
+                          InputData="@CategoryExpenses.Values.Select(v => (double)v).ToArray()"
+                          InputLabels="@CategoryExpenses.Keys.ToArray()"
+                          DonutInnerRadius="40%"
+                          DonutText="Expenses" />
+            </MudPaper>
 
-            <!-- Transaction Filter Dropdown -->
-            <div class="mb-3">
+            <!-- Filter Dropdown -->
+            <div class="mb-4">
                 <label for="transactionFilter" class="form-label">Filter Transactions</label>
                 <select id="transactionFilter" class="form-select" @onchange="OnFilterChanged">
                     <option value="Highest">Top 5 Highest Transactions</option>
@@ -138,9 +94,9 @@
                 </select>
             </div>
 
+            <!-- Transaction Table -->
             <MudPaper Class="pa-4 mb-4">
                 <MudText Typo="Typo.h5" Class="mb-3">@($"{TransactionFilter} Transactions")</MudText>
-
                 <MudTable Items="FilteredTransactions" Bordered Striped Hover>
                     <HeaderContent>
                         <MudTh>Title</MudTh>
@@ -150,21 +106,19 @@
                         <MudTh>Amount</MudTh>
                         <MudTh>Description</MudTh>
                     </HeaderContent>
-
                     <RowTemplate>
                         <MudTd DataLabel="Title">@context.title</MudTd>
                         <MudTd DataLabel="Type">@context.Type</MudTd>
                         <MudTd DataLabel="Date">@context.Date.ToShortDateString()</MudTd>
-                        <MudTd DataLabel="Category">@((string.IsNullOrEmpty(context.CustomCategory) ? context.Category : context.CustomCategory))</MudTd>
+                        <MudTd DataLabel="Category">@context.Category</MudTd>
                         <MudTd DataLabel="Amount">@context.Amount.ToString("C")</MudTd>
                         <MudTd DataLabel="Description">@context.Description</MudTd>
                     </RowTemplate>
                 </MudTable>
             </MudPaper>
 
-
             <!-- Pending Debts -->
-            <MudPaper Class="pa-4 mb-4">
+            <MudPaper Class="pa-4 mb-4 pe-5">
                 <MudCard>
                     <MudCardHeader Class="bg-primary text-white">
                         <MudText Typo="Typo.h6" Class="mb-0">Pending Debts</MudText>
@@ -209,9 +163,11 @@
                     </MudCardContent>
                 </MudCard>
             </MudPaper>
-
         </div>
     </div>
+</div>
+
+  
 
 
 
