@@ -106,7 +106,7 @@ namespace DataAcess.Services
             var totalInflows = await GetTotalInflows();
             var totalDebts = await GetTotalDebtAmount();
 
-            // Current balance = Total inflows + Total debts - Total outflows
+           
             return totalInflows + totalDebts - await GetTotalOutflows();
         }
 
@@ -145,7 +145,7 @@ namespace DataAcess.Services
             await File.WriteAllTextAsync(_debtsFilePath, json);
         }
 
-        private async Task<decimal> GetTotalDebtAmount()
+        public async Task<decimal> GetTotalDebtAmount()
         {
             var debts = await GetAllDebts();
             return debts.Sum(debt => debt.Amount);

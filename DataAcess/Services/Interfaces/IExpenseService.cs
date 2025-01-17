@@ -11,12 +11,16 @@ namespace DataAcess.Services.Interfaces
 
         Task DeleteTransaction(Expense expense);
         Task<decimal> GetTotalOutflows();
+
+        Task<decimal> GetTotalInflows();
         Task <decimal>GetCurrentBalance();
         
         
         Task<List<Debt>> GetAllDebts();  // Add this method to the interface
         Task DeleteDebt(Debt debt);
         Task AddDebt(Debt newDebt);
+
+        
 
 
     }

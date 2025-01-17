@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-16T14:44:18.467</Modified>
+      <Modified>2025-01-17T05:11:24.667</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\pocketPurge.dll">
       <PackagePath>pocketPurge.dll</PackagePath>
-      <Modified>2025-01-16T14:44:17.912</Modified>
+      <Modified>2025-01-17T05:11:22.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\DataAcess\bin\Debug\net8.0-windows10.0.19041.0\DataAcess.dll">
       <PackagePath>DataAcess.dll</PackagePath>
-      <Modified>2025-01-16T12:46:56.557</Modified>
+      <Modified>2025-01-17T04:53:39.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\DataModel\bin\Debug\net8.0-windows10.0.19041.0\DataModel.dll">
       <PackagePath>DataModel.dll</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>pocketPurge.exe</PackagePath>
-      <Modified>2025-01-16T14:44:17.960</Modified>
+      <Modified>2025-01-17T05:11:22.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shrij\Documents\pocketPurge\pocketPurge\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

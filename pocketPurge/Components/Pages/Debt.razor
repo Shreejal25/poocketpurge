@@ -88,16 +88,7 @@
         currentBalance = await ExpenseService.GetCurrentBalance();  // Fetch the current balance here
     }
 
-    // private async Task DeleteDebt(int id)
-    // {
-    //     var debtToDelete = debts.FirstOrDefault(d => d.Id == id);
-    //     if (debtToDelete != null)
-    //     {
-    //         await ExpenseService.DeleteDebt(debtToDelete);
-    //         debts.Remove(debtToDelete);
-    //         await UpdateCurrentBalance();  Update the balance after deleting
-    //     }
-    // }
+    
 
     private async Task HandleValidSubmit()
     {

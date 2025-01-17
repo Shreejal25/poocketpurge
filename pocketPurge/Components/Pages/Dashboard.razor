@@ -15,13 +15,19 @@
             <ul class="list-unstyled">
                 <li><button @onclick="NavigateToDashboard" class="btn btn-link text-white w-100 text-start">Dashboard</button></li>
                 <li><button @onclick="NavigateToTransaction" class="btn btn-link text-white w-100 text-start">All Transactions</button></li>
-                <li><button @onclick="NavigateToDebt" class="btn btn-link text-whitek w-100 text-start">Debt</button></li>
+                <li><button @onclick="NavigateToDebt" class="btn btn-link text-white w-100 text-start">Debt</button></li>
                 <li><button @onclick="Logout" class="btn btn-link text-white w-100 text-start">Logout</button></li>
             </ul>
         </div>
+       
 
         <!-- Main Content -->
         <div class="col-md-9 offset-md-3" style="padding-top: 20px;">
+
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class=" alert-danger">@errorMessage</div>
+            }
             <!-- Header Section -->
             <MudCard Class="mb-4">
                 <MudCardContent Class="d-flex justify-content-between align-items-center">
@@ -48,7 +54,7 @@
                     <MudCard Class="pa-4" Style="background-color: #f0f8ff; border-radius: 10px;">
                         <MudCardContent>
                             <h4 class="mud-title">Total Inflows</h4>
-                            <p class="mud-typography text-success fw-bold">@TotalExpense.ToString("C")</p>
+                            <p class="mud-typography text-success fw-bold">@TotalInflow.ToString("C")</p>
                         </MudCardContent>
                     </MudCard>
                 </div>
@@ -76,6 +82,9 @@
 
             <!-- Category-Wise Chart -->
             <MudPaper Class="pa-4 mb-4 text-center">
+                <MudCardHeader>
+                    <MudText>Category-wise Expenses</MudText>
+                </MudCardHeader>
                 <MudChart ChartType="ChartType.Pie"
                           Width="200px"
                           Height="200px"
@@ -84,6 +93,20 @@
                           DonutInnerRadius="40%"
                           DonutText="Expenses" />
             </MudPaper>
+
+
+            <!-- Cleared Debts and total debts -->
+
+            
+                      
+         
+
+
+
+
+
+
+
 
             <!-- Filter Dropdown -->
             <div class="mb-4">
@@ -175,6 +198,7 @@
 @code {
     private List<Expense> Expenses { get; set; } = new();
     private decimal TotalExpense { get; set; }
+    private decimal TotalInflow { get; set; }
     private decimal TotalOutflow { get; set; }
     private decimal? currentBalance { get; set; }
     private Dictionary<string, decimal> CategoryExpenses { get; set; } = new();
@@ -187,10 +211,21 @@
     private List<Expense> RecentTransactions { get; set; } = new();
     private List<Expense> FilteredTransactions { get; set; } = new();
     private string TransactionFilter { get; set; } = "Highest"; // Default filter to "Highest"
+    [Inject] private IExpenseService ExpenseServices { get; set; } // Inject your ExpenseService
+
+    private decimal TotalDebts { get; set; }
+    private decimal ClearedDebts { get; set; }
+
+
+
+
+
+
 
     protected override async Task OnInitializedAsync()
     {
         await LoadDashboardData();
+        
     }
 
     private async Task LoadDashboardData()
@@ -199,6 +234,7 @@
         {
             Expenses = await ExpenseService.GetAllTransaction();
             TotalExpense = await ExpenseService.GetTotalTransaction();
+            TotalInflow = await ExpenseService.GetTotalInflows();
             TotalOutflow = await ExpenseService.GetTotalOutflows();
             CategoryExpenses = await ExpenseService.GetCategoryTransaction();
             currentBalance = await ExpenseService.GetCurrentBalance();

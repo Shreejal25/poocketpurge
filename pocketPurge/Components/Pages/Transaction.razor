@@ -1,12 +1,18 @@
 ﻿@page "/transaction"
 
 @using DataModel.Model
+@using System.Text
 @inject IExpenseService ExpenseService
 @inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
 
 <button @onclick="NavigateDashboard" class="btn btn-primary">
     Back Dashboard
 </button>
+<button @onclick="DownloadCsv" class="btn btn-success">
+    Download CSV
+</button>
+
 
 
 <div class="filter-section">
@@ -77,7 +83,18 @@
             }
         </tbody>
     </table>
+    <script>
+        function saveAsFile(fileName, content) {
+            var blob = new Blob([content], { type: 'text/csv' });
+            var link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = fileName;
+            link.click();
+        }
+    </script>
+
 </div>
+
 
 @code {
     private List<Expense> Expenses { get; set; } = new();
@@ -92,6 +109,27 @@
     private DateTime? StartDate { get; set; }
     private DateTime? EndDate { get; set; }
     private bool TitleSortAscending = true;
+
+    private async Task DownloadCsv()
+    {
+        var csv = GenerateCsv(FilteredExpenses);
+        await JSRuntime.InvokeVoidAsync("saveAsFile", "transactions.csv", csv);
+    }
+
+    private string GenerateCsv(List<Expense> expenses)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine("Title,Type,Date,Category,Amount,Description");
+
+        foreach (var expense in expenses)
+        {
+            var formattedDate = expense.Date.ToString("yyyy-MM-dd");
+            sb.AppendLine($"{expense.title},{expense.Type},{expense.Date.ToShortDateString()},{(string.IsNullOrEmpty(expense.CustomCategory) ? expense.Category : expense.CustomCategory)},{expense.Amount},{expense.Description}");
+        }
+
+        return sb.ToString();
+    }
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -198,6 +236,8 @@
         TitleSortAscending = !TitleSortAscending;
         ApplyFilters();
     }
+
+   
 
 
 }

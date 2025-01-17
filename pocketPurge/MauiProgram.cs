@@ -26,8 +26,8 @@ public static class MauiProgram
         // Register your custom services
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddSingleton<IExpenseService, ExpenseService>();
-        
 
+       
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
